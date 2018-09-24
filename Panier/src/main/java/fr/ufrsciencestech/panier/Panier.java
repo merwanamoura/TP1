@@ -67,7 +67,7 @@ public class Panier {
         }
         else
         {
-            System.out.println("Panier plein /! ");
+            System.out.println("-------------------------------- ");
         }
         
     }

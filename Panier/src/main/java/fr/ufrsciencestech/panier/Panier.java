@@ -65,6 +65,10 @@ public class Panier {
             tabOrange.add(or);
             nbOrange++;
         }
+        else
+        {
+            System.out.println("Panier plein /! ");
+        }
         
     }
     public void retire()

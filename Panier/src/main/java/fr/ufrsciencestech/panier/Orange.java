@@ -23,7 +23,7 @@ public class Orange {
         }
         else 
         {
-             this.prix=0;
+             System.out.println("Prix ne peut pas etre negatif");
         }
         
     }

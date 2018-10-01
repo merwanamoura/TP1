@@ -23,7 +23,7 @@ public class Orange {
         }
         else 
         {
-             System.out.println("-----------------------------");
+             System.out.println("Prix négatif impossible");
         }
         
     }

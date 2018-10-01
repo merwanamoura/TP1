@@ -64,10 +64,11 @@ public class Panier {
         {
             tabOrange.add(or);
             nbOrange++;
+            
         }
         else
         {
-            System.out.println("-------------------------------- ");
+            System.out.println("Panier plein !!! Impossible de rajouter l'orange ");
         }
         
     }
@@ -96,5 +97,9 @@ public class Panier {
                 nbOrange--;
             }
         }
+    }
+    public Orange getLastOrange()
+    {
+        return this.tabOrange.get(nbOrange-1);
     }
 }
